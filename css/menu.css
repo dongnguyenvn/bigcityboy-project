@@ -28,6 +28,7 @@ header{
 }
 #site-nav>ul>li>a{
   text-decoration: none;
+  color: #333;
 }
 #site-nav>ul>li:hover{
     cursor: pointer;
