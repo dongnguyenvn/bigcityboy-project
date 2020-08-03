@@ -3,7 +3,7 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-#site-logo>img{
+#site-logo>a>img{
     padding-top: 7px;
     max-width: 300px;
     background-position: center;
