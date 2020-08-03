@@ -1,3 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#site-logo>img{
+    padding-top: 7px;
+    max-width: 300px;
+    background-position: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: #fafafa;
+    width: 100%;
+}
+#site-nav>ul{
+    display: flex;
+    list-style: none;
+    margin-right: 10px;
+}
+#site-nav>ul>li{
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+#site-nav>ul>li>a{
+  text-decoration: none;
+}
+#site-nav>ul>li:hover{
+    cursor: pointer;
+    color:rgb(81 199 160);
+}
 .site-content{
     max-width: 1140px;
     margin: 0 auto;
@@ -14,12 +49,12 @@
     text-align: center;
 }
 .block-title-wrapper h4{
-    color: #D4B799;
+    color: rgb(81 199 160);
 }
 .space{
     width: 120px;
     height: 2px;
-    background-color: #C7A17A;
+    background-color: rgb(81 199 160);
     margin: 25px auto 50px;
 }
 .left{
@@ -116,7 +151,7 @@
     font-size: 20px;
 }
 .menu-col>div>p{
-    color: #c7a17a;
+    color: rgb(81 199 160);
     line-height: 1.2em;
     margin-top: 0;
 }
@@ -136,7 +171,7 @@
     position: relative;
 }
 .menu-left span{
-    background-color: #C7A17A;
+    background-color: rgb(81 199 160);
     padding: 3px 15px;
     position: absolute;
     right: 0;
@@ -208,7 +243,7 @@
     font-family: 'Oswald', sans-serif;
     font-size: 116px;
     font-weight: 500;
-    color: #c7a17a;
+    color: rgb(81 199 160);
     text-align: center;
 }
 .quote-slider div{
@@ -217,4 +252,33 @@
 }
 .logo-slider{
     margin: 0 -10vw;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(81 199 160);
+    height: 60px;
+}
+.social-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fafafa;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer>a:nth-child(2){
+    margin: 0 15px;
+}
+footer>a{
+    text-decoration: none;
+}
+.social-icon>i{
+    color: rgb(81 199 160);
+}
+footer>a>div:hover{
+    background-color: #000000;
 }
