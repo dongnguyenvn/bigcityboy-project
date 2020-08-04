@@ -15,7 +15,6 @@ body{
     width: 100%;
     height: 60px;
     background-color: rgba(241,241,241,0.8);
-    position: fixed;
 }
 .logo{
     font-family: 'Poppins', sans-serif;
@@ -59,16 +58,33 @@ p{
 }
 .welcom{
     width: 100%;
-    height: 680px;
-    background-image: url("../images/the-roasting-process-of-coffee-1.jpeg");
+    height: 500px;
+    position: relative;
+}
+.background{
+    background-image: url("../images/shop.jpg");
     background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 500px;
+    z-index: 0;
+}
+.font{
+    position: absolute;
+    top: 0;
+    opacity: 0.6;
+    background-color:#000000;
+    color: white;
+    width: 100%;
+    height: 500px;
+    z-index: 1;
 }
 h1{
     font-family: 'Poppins', sans-serif;
-    color: lightcyan;
+    color: #ffffff;
     padding-top: 150px;
     padding-left: 380px;
-    font-size: 150px;
+    font-size: 130px;
     text-align: 20px;
 }
 .content{
@@ -81,10 +97,10 @@ h1{
 .thumuc1>p {
     font-family: 'Poppins', sans-serif;
     color: rgb(81 199 160);
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
-    padding-top: 25px;
-    padding-left: 500px;
+    padding-top: 40px;
+    padding-left: 550px;
 }
 .img{
     float: left;
@@ -132,7 +148,6 @@ h1{
     float: left;
     width: 50%;
     padding-left: 100px;
-    margin-top: 50px;
 }
 .arabica{
     height: 70px;
